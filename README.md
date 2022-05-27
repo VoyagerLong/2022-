@@ -1,20 +1,20 @@
-# 2022-本科毕业设计源码
+## 2022-本科毕业设计源码
 复现ATL03测高点云提取地表高程的过程。根据ICESat-2 ATL08土地和植被高度产品生成算法的理论基础编写Python脚本，搭建完成地表高程反演批处理工作流。
 
-# 记得放ATL03文件到此目录
+## 记得放ATL03文件到此目录
 
 
-# 算法理论基础参考：2019_ICESat-2 ATBD for ATL08_r002_v2.pdf
+## 算法理论基础参考：2019_ICESat-2 ATBD for ATL08_r002_v2.pdf
 
 
-# 下方 CMD 命令为使用 ATL03 数据反演地表面的脚本顺序运行命令。
-## 经测试，待安装好 anaconda 环境后即可顺利运行。
+## 下方 CMD 命令为使用 ATL03 数据反演地表面的脚本顺序运行命令。
+### 经测试，待安装好 anaconda 环境后即可顺利运行。
 
-## anaconda 环境
-### 语言：Python 3.7
-### 库：sys, os, shutil, numpy, csv, pandas, scipy, h5py, open3d, math, matplotlib, pyproj,  osgeo, gdal, gdalconst
+### anaconda 环境
+#### 语言：Python 3.7
+#### 库：sys, os, shutil, numpy, csv, pandas, scipy, h5py, open3d, math, matplotlib, pyproj,  osgeo, gdal, gdalconst
 
-## ---------- CMD 开始 ------------
+#### ---------- CMD 开始 ------------
 conda activate python37（anaconda 环境）
 
 E:
@@ -86,10 +86,10 @@ python 24_initial_ground_estimate_final_ground_points.py
 python 0_view_24.py
 
 exit
-## ---------- CMD 结束 ------------
+#### ---------- CMD 结束 ------------
 
-## 该 CMD 命令将所有脚本完全运行结束，时间约花费 30 分钟。
-## 倘若换为其他 ATL03 数据，则脚本 3_hist_Gauss_fit.py 中的参数暂时需要手动改变。
-## 使用数学方法自动加载脚本 3_hist_Gauss_fit.py 参数的新版本脚本后续将在 github 更新。
+#### 该 CMD 命令将所有脚本完全运行结束，时间约花费 30 分钟。
+#### 倘若换为其他 ATL03 数据，则脚本 3_hist_Gauss_fit.py 中的参数暂时需要手动改变。
+#### 使用数学方法自动加载脚本 3_hist_Gauss_fit.py 参数的新版本脚本后续将在 github 更新。
 
-## 此源码压缩包内容为 version_1 版本，未使用类、继承、多态等程序设计中提高代码利用率的方法。将在 version_2 版本优化代码，预计代码量将减少 1/5，运行速度也将进一步提高。
+#### 此源码压缩包内容为 version_1 版本，未使用类、继承、多态等程序设计中提高代码利用率的方法。将在 version_2 版本优化代码，预计代码量将减少 1/5，运行速度也将进一步提高。
