@@ -7,6 +7,8 @@
 
 ## 下方 CMD 命令为使用 ATL03 数据反演地表面的脚本顺序运行命令。
 ### 经测试，待安装好 anaconda 环境后即可顺利运行。
+![Gauss_fit](https://github.com/juejue123/2022-/assets/82886491/aa275da1-6b80-4601-ad6c-6584158d637d)
+![最终地表面点](https://github.com/juejue123/2022-/assets/82886491/732f5001-9be5-4721-a5a9-59bb88325d6c)
 
 ### anaconda 环境
 #### 语言：Python 3.7
