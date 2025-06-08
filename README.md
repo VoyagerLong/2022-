@@ -72,14 +72,14 @@ exit
 
 > ⏱️ Estimated runtime for all scripts: ~30 minutes.
 
-## ⚠️ Notes
+## Notes
 
 - When using different ATL03 datasets, manual adjustment may be needed for parameters in `3_hist_Gauss_fit.py`.
 - A future update will automate this parameter tuning.
 - This is version 1 of the code and does not yet use object-oriented features such as classes or inheritance.
 - Version 2 will include optimized code structure, reducing code size by ~20% and improving execution speed.
 
-## 📷 Visual Examples
+## Visual Examples
 
 ![Gauss_fit](https://github.com/juejue123/2022-/assets/82886491/aa275da1-6b80-4601-ad6c-6584158d637d)
 ![Final Ground Points](https://github.com/juejue123/2022-/assets/82886491/b6d4b2ef-9f20-472d-bc8d-e2b867226310)
